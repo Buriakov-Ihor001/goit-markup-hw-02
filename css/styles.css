@@ -61,6 +61,10 @@ p {
     color: #404BBF;
 }
 
+.page-address {
+    font-style: normal;
+}
+
 .address-list-link {
     font-weight: 400;
     font-size: 16px;
@@ -94,7 +98,8 @@ p {
     letter-spacing: 0.04em;
 }
 
-.hero-title-button:hover {
+.hero-title-button:hover, 
+.hero-title-button:focus {
     background-color: #404BBF;
 }
 
@@ -175,7 +180,7 @@ p {
 }
 
 .accent-studio-footer {
-    color: #FFFFFF;
+    color: #F4F4FD;
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
